@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>– Namma Chennai Whistle Adinga</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #FFF9C4; /* Light yellow background */
+      margin: 0;
+      padding: 0;
+      color: #3E2723; /* Dark brown text */
+    }
+    header {
+      background:yellow; /* Golden yellow */
+      color: #3E2723;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px 20px;
+    }
+    .logo-box {
+      border: 3px solid #F57F17;
+      border-radius: 8px;
+      padding: 5px;
+      background: #fff;
+    }
+    .logo-box img { width: 80px; }
+    header h1 {
+      margin-left: 15px;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      text-align: center;
+      padding: 15px 0;
+      background:navy; /* Bright yellow */
+      border-bottom: 3px solid #F57F17;
+    }
+    .nav-box {
+      display: inline-block;
+      margin: 0 12px;
+      background: #fff;
+      border: 2px solid #F57F17;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .nav-box a {
+      display: block;
+      padding: 10px 20px;
+      color: #3E2723;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s;
+    }
+    .nav-box a:hover {
+      background: #F57F17;
+      color: #fff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .heading-box {
+      background: #F57F17;
+      color: #fff;
+      border-radius: 12px;
+      border: 3px solid #3E2723;
+      padding: 25px 20px;
+      margin-bottom: 30px;
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .photo-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .photo-box {
+      flex: 1 1 280px;
+      background: #fff;
+      border: 3px solid #3E2723;
+      border-radius: 12px;
+      overflow: hidden;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .photo-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .photo-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-bottom: 3px solid #F57F17;
+    }
+
+    .photo-box p {
+      margin: 15px 10px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #3E2723;
+      line-height: 1.3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-box">
+      <img src="./image/csklogo.jpg" alt="CSK Logo" />
+    </div>
+    <h1>CHENNAI SUPER KINGS 🏏🔥</h1>
+  </header>
+
+  <nav>
+    <div class="nav-box"><a href="home.html">🏠 Home</a></div>
+    <div class="nav-box"><a href="players.html">👥 Players</a></div>
+    <div class="nav-box"><a href="about-us.html">📖 About Us</a></div>
+    <div class="nav-box"><a href="shop.html">🛒 Shop</a></div>
+  </nav>
+
+  <main>
+    <div class="heading-box">
+       நம்ம சென்னை விஸில் அடிங்க
+    </div>
+
+    <div class="photo-row">
+      <div class="photo-box">
+        <img src="./image/CSK1.jpg" alt="Whistle Podu Army fans" width="" />
+        <p>🎉 Whistle Podu Army fans cheering in yellow across Tamil Nadu</p>
+      </div>
+      <div class="photo-box">
+        <img src="./image/pic1.jpg" alt="Fan placards " height="100%" />
+        <p>📣 Fans holding signs spelling out PODU during CSK matches</p>
+      </div>
+      <div class="photo-box">
+        <img src="./image/pic2.jpg" alt="Whistle Podu Express" />
+        <p>🚂 Whistle Podu Express ferrying fans to Chepauk stadium</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
